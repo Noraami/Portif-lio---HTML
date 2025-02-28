@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    line-height: 1.6;
+    background-image: url(Capivara.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+.conteudo{
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'aside article';
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+aside{
+    margin-bottom: 30px;
+}
+
+article{
+    margin-top: 50px;
+    font-size: large;
+    font-family: 'Roboto Serif';
+}
+
+.titulo{
+    font-size: 90px;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'EB Garamond';
+    color: white;
+    font-style: italic;
+    margin-top: 240px;
+
+}
+
+.seta{
+    font-size: 90px;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #bdbdbd;
+    margin-top: 240px;  
+}
+
+.nome{
+    font-size: larger;
+}
+
+.navbar {
+    background-color: #44332d;
+    padding: 1rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Serif';
+    
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+span{
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #bdbdbd;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
