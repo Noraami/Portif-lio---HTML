@@ -32,29 +32,24 @@ article{
     font-family: 'Roboto Serif';
 }
 
-.titulo{
-    font-size: 90px;
-    justify-content: center;
+.cont{
+    height: 750px;
     text-align: center;
+}
+
+.titulo{
+    font-size: 95px;
     width: 700px;
     margin: 0 auto;
-    padding: 20px;
     font-family: 'EB Garamond';
     color: white;
     font-style: italic;
-    margin-top: 240px;
-
+    margin-top: 250px;
 }
 
 .seta{
-    font-size: 90px;
-    justify-content: center;
-    text-align: center;
-    width: 700px;
-    margin: 0 auto;
-    padding: 20px;
     color: #bdbdbd;
-    margin-top: 240px;  
+    margin-top: 350px;
 }
 
 .nome{
@@ -68,7 +63,9 @@ article{
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto Serif';
-    
+    position: fixed;
+    top: 0px;
+    width: 100%;
     
 }
 
